@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="b_save">Wyświetl zaznaczone opcje</string>
+    <string name="et_text">Podaj tekst</string>
+    <string name="tv_text">Zaznacz ulubione warzywo</string>
+    <string name="vegetable_1">Papryka</string>
+    <string name="vegetable_2">Pomidor</string>
+    <string name="vegetable_3">Kapusta</string>
+    <string name="vegetable_4">Ogurek</string>
+    <string name="vegetable_5">Marchewka</string>
+    <string name="vegetable_6">Kalafior</string>
+
+    <string-array name="vegatables">
+        <item>@string/vegetable_1</item>
+        <item>@string/vegetable_2</item>
+        <item>@string/vegetable_3</item>
+        <item>@string/vegetable_4</item>
+        <item>@string/vegetable_5</item>
+        <item>@string/vegetable_6</item>
+    </string-array>
+</resources>

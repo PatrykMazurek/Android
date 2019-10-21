@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="b_save">Zapisz</string>
+    <string name="b_save_onClick">Zapisz onClick</string>
+    <string name="et_text">Podaj tekst</string>
+    <string name="tv_text">Oczekuje na tekst</string>
+</resources>

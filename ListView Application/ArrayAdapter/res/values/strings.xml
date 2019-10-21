@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="b_save">Dodaj do listy</string>
+    <string name="et_text">Podaj państwo</string>
+    <string name="tv_text">Lista państw</string>
+
+</resources>
