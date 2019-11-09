@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="name">Imię</string>
+    <string name="last_name">Nazwisko</string>
+    <string name="city">Miasto</string>
+    <string name="save">Zapisz</string>
+    <string name="save_date">Zapisz dane</string>
+    <string name="prev">powrót</string>
+    <string name="clear_data">Wyczyść dane</string>
+    <string name="cekar_massage">Dane zostały usunięte</string>
+    <string name="old_record">Dane zapisane</string>
+    <string name="new_record">Nowe dane</string>
+    <string name="empty">Brak rekordów</string>
+    <string name="rotation">Obracajac ekran zmieni się ułożenie kontrolek (drugi widok)</string>
+</resources>

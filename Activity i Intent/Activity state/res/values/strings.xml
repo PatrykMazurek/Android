@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="n_record">nowy rekord</string>
+    <string name="save">Zapisz</string>
+    <string name="clear_data">Wyczyść dane</string>
+    <string name="cekar_massage">Dane zostały usunięte</string>
+    <string name="rotation">Obracajac ekran zmieni się ułożenie kontrolek (drugi widok)</string>
+</resources>
