@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="number"> number </string>
+    <string name="text_progres"> number ? / ?</string>
+    <string name="button_start"> Start AsyncTask</string>
+    <string name="button_cancel"> Cancel AsyncTask</string>
+</resources>
