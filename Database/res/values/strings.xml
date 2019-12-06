@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Kolokwium</string>
+    <string name="editText1">wprowadz text 1</string>
+    <string name="editText2">wprowadz text 2</string>
+    <string name="save">Zapisz</string>
+    <string name="save_check">Zapisz dane</string>
+    <string name="prev">powrót</string>
+    <string name="clear_data">Wyczyść dane</string>
+    <string name="clear_massage">Usunięto dane</string>
+    <string name="old_record">Dane zapisano</string>
+    <string name="new_record">Nowe dane</string>
+</resources>
