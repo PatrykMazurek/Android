@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Kolokwium</string>
+    <string name="new_record"/>
+    <string name="old_record"/>
+    <string name="empty"/>
+    <string name="save_date"/>
+    <string name="clear_data"/>
+</resources>
