@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        // Odwołanie do kontrolek
+        // reference th the controls 
         etNewRecord = (EditText)findViewById(R.id.et_new_record);
         Button bSave = (Button)findViewById(R.id.b_save);
         Button bClear = (Button)findViewById(R.id.b_clear_data);
@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
         bClear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+				// this method clears the data stored in 
                 // Czyszczenie zapisanych danych w SharedPreferences i w kontrolkach EditText
                 prefEditor.clear();
                 prefEditor.apply();
@@ -101,13 +102,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-        Toast.makeText(this, "Metoda Stop", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Stop method", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     protected void onDestroy() {
         String text = etNewRecord.getText().toString();
-        Toast.makeText(this, "Metoda Destroy", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Destroy method ", Toast.LENGTH_SHORT).show();
         if(!text.isEmpty()){
             prefEditor.putString("lost_record",etNewRecord.getText().toString());
             prefEditor.apply();
