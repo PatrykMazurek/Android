@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Test_4</string>
     <string name="person_name">Please enter your first name</string>
+    <string name="country_name">Country name </string>
+    <string name="country_area">Country area</string>
+    <string name="country_capital_name">Capital name</string>
+
 </resources>

@@ -6,60 +6,28 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
-<!--    <LinearLayout-->
-<!--            android:orientation="vertical"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent">-->
-<!--        <TextView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:text="Hello World!"-->
-<!--                android:id="@+id/Text_info"-->
-<!--                android:layout_marginLeft="16dp"/>-->
-<!--        <TextView-->
-<!--                android:text="@string/person_name"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:textSize="17dp"-->
-<!--                android:id="@+id/textView2"/>-->
-<!--        <EditText-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:inputType="textPersonName"-->
-<!--                android:text="Name"-->
-<!--                android:ems="10"-->
-<!--                android:id="@+id/et_name"/>-->
-<!--        <TextView-->
-<!--                android:text="TextView"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content" android:id="@+id/textView3"/>-->
-<!--        <CheckBox-->
-<!--                android:text="male"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:id="@+id/gender"/>-->
-<!--        <CheckBox-->
-<!--                android:text="female"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:id="@+id/gender2"/>-->
-<!--        <Button-->
-<!--                android:text="show"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:id="@+id/b_show"/>-->
-<!--        <ListView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="match_parent" android:id="@+id/l_person"/>-->
-<!--    </LinearLayout>-->
 
-    <GridView
-            android:layout_width="409dp"
-            android:layout_height="729dp"
-            android:gravity="center"
-            android:numColumns="auto_fit"
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="10" >
+        <GridView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:numColumns="auto_fit"
+                android:id="@+id/grid_view_country"
+                android:layout_weight="9">
 
-            tools:layout_editor_absoluteY="1dp"
-            tools:layout_editor_absoluteX="1dp"
-            android:id="@+id/grid_view_country"/>
+        </GridView>
+        <Button
+                android:text="Add new country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_add"
+                android:layout_weight="1"/>
+    </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
